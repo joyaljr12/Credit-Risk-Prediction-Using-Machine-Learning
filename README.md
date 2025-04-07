@@ -23,13 +23,14 @@ The target variable is `default`, indicating whether a customer defaulted on the
 ## ⚙️ Workflow
 
 ### 1. **Data Preprocessing**
-- Handling missing values
+- Handling missing & duplicated values
 - Feature engineering (e.g., loan-to-income ratio)
 - Outlier detection
 - Label encoding and scaling (MinMaxScaler)
 
 ### 2. **Exploratory Data Analysis (EDA)**
-- Histograms and bar charts for all numerical and categorical columns
+- Histograms and bar charts for all continuous and categorical columns
+- KDE plot for all continuous columns
 - Correlation analysis
 
 ### 3. **Information Value (IV) & WOE Encoding**
@@ -60,3 +61,8 @@ The project identifies the best-performing model based on cross-validation score
 
 - Python
 - Pandas, NumPy
+- Scikit-learn
+- Seaborn, Matplotlib
+- Statsmodels – for statistical modeling and calculating **Variance Inflation Factor (VIF)**
+- Imbalanced-learn (imblearn) – for handling imbalanced data (e.g. Undersampling, SMOTETomek)
+- Jupyter Notebook
