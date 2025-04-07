@@ -63,6 +63,7 @@ The project identifies the best-performing model based on cross-validation score
 - Pandas, NumPy
 - Scikit-learn
 - Seaborn, Matplotlib
+- Xgboost
 - Statsmodels – for statistical modeling and calculating **Variance Inflation Factor (VIF)**
 - Imbalanced-learn (imblearn) – for handling imbalanced data (e.g. Undersampling, SMOTETomek)
 - Jupyter Notebook
