@@ -4,7 +4,7 @@ An end-to-end machine learning project for predicting the probability of loan de
 
 This is an educational portfolio project based on a fictional NBFC credit-risk case study. The project covers data preprocessing, feature engineering, feature selection, class-imbalance handling, model development, evaluation, credit scoring, and deployment through an interactive Streamlit application.
 
-> 🔗 **Live Demo:** To be added after deployment
+> 🔗 **Live Demo:** https://credit-risk-prediction-using-machine-learning.streamlit.app/
 
 ---
 
